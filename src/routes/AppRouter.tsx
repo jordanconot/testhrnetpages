@@ -6,7 +6,7 @@ import Employees from '../pages/Employees';
 export default function AppRouter() {
 
   return (
-    <Router>
+    <Router basename="/testhrnetpages">
       {/* <Suspense fallback={'Chargement'}> */}
         <Routes>
           <Route path='/' element={<Home />} />

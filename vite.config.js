@@ -3,6 +3,7 @@ import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: "/testhrnetpages/",
   plugins: [react(), visualizer({ open: true })],
   build: {
     // modulePreload: {
